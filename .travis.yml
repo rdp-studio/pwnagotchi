@@ -19,7 +19,7 @@ deploy:
     repo: rdp-studio/pwnagotchi
 branches:
   only:
-    - "/^v[0-9]+\\.[0-9]+\\.[0-9]+[A-Za-z0-9]*$/"
+    - "master"
 cache:
   apt: true
 before_script:
